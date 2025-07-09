@@ -6,7 +6,7 @@ An interactive Streamlit dashboard that analyzes and predicts the success of mov
 
 ## 🌐 Live Demo
 
-🚀 [Live App (Coming Soon)]()
+🚀 [Click here to try the live app](https://movieiq-predictive-analytics-on-film-success-hkz386d9xzv5mygjz.streamlit.app/)
 
 ---
 
@@ -45,3 +45,41 @@ An interactive Streamlit dashboard that analyzes and predicts the success of mov
 ```bash
 git clone https://github.com/nv2105/MovieIQ-Predictive-Analytics-on-Film-Success.git
 cd MovieIQ-Predictive-Analytics-on-Film-Success
+2. Install dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3. Run the app
+bash
+Copy
+Edit
+streamlit run MovieIQ.py
+📁 Dataset
+Make sure the project includes a movies.csv file with the following columns:
+
+Copy
+Edit
+budget, revenue, popularity, runtime, vote_average, title, genres
+👨‍💻 Author
+Naman Vora
+Final Year CSE Student | Aspiring Data Analyst
+📫 LinkedIn • GitHub
+
+📄 License
+This project is open source and available under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Final Step
+
+Run the following in your terminal to push the updated README:
+
+```bash
+git add README.md
+git commit -m "📄 Update README with live Streamlit app link"
+git push origin main
