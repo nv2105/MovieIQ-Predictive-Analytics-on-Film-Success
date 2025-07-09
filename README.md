@@ -13,73 +13,59 @@ An interactive Streamlit dashboard that analyzes and predicts the success of mov
 ## 📊 Key Features
 
 - 🎯 Predicts whether a movie is likely to be successful (Revenue > Budget)
-- 📈 Visual insights with Seaborn + Matplotlib (Budget vs Revenue, Genre Trends)
+- 📈 Visual insights using Seaborn & Matplotlib (Budget vs Revenue, Genre Trends)
 - 📊 T-Test and Chi-Square statistical tests
-- 🤖 Random Forest Classifier for binary success prediction
-- 🧠 Interactive filtering by genre and vote average via Streamlit sidebar
-- 📂 Clean modular dashboard ready for deployment and GitHub showcasing
+- 🤖 Random Forest Classifier for success prediction
+- 🧠 Interactive filtering by genre and vote average via sidebar
+- 🧼 Clean, modular dashboard ready for deployment
 
 ---
 
 ## 🧰 Tech Stack
 
-- Python 🐍
-- Pandas, NumPy
-- Seaborn & Matplotlib
-- Scikit-learn (RandomForestClassifier)
-- Streamlit (App Framework)
-- SciPy (Statistical Analysis)
+- **Python** 🐍
+- **Pandas**, **NumPy**
+- **Seaborn**, **Matplotlib**
+- **Scikit-learn**
+- **Streamlit**
+- **SciPy**
 
 ---
 
 ## 📷 Screenshots
 
-> *(You can add images to an `assets/` folder and reference them here.)*
+| Dashboard Overview | Statistical Tests |
+|--------------------|-------------------|
+| ![Dashboard](assets/dashboard.png) | ![Tests](assets/stats_tests.png) |
+
+> Add more screenshots to the `assets/` folder and reference them similarly.
 
 ---
 
 ## 🚀 Run Locally
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/nv2105/MovieIQ-Predictive-Analytics-on-Film-Success.git
 cd MovieIQ-Predictive-Analytics-on-Film-Success
-2. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Run the app
-bash
-Copy
-Edit
-streamlit run MovieIQ.py
-📁 Dataset
-Make sure the project includes a movies.csv file with the following columns:
-
-Copy
-Edit
-budget, revenue, popularity, runtime, vote_average, title, genres
-👨‍💻 Author
-Naman Vora
-Final Year CSE Student | Aspiring Data Analyst
-📫 LinkedIn • GitHub
-
-📄 License
-This project is open source and available under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ Final Step
-
-Run the following in your terminal to push the updated README:
-
+ 
+```
+### 2. Install dependencies
 ```bash
-git add README.md
-git commit -m "📄 Update README with live Streamlit app link"
-git push origin main
+pip install -r requirements.txt
+```
+### 3. Run the app
+```bash
+streamlit run MovieIQ.py
+```
+## 📁 Dataset
+Make sure the project includes a `movies.csv` file with the following columns:<br>
+` budget, revenue, popularity, runtime, vote_average, title, genres`
+<br>
+## 👨‍💻 Author<br>
+### Naman Vora<br>
+#### Final Year CSE Student | Aspiring Data Analyst<br>
+📫 [LinkedIn](www.linkedin.com/in/namanvora21) • [GitHub](https://github.com/nv2105)
+
+## 📄 License
+This project is open source and available under the [MIT License.](https://mit-license.org/) 
